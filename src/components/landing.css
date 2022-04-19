@@ -1,0 +1,52 @@
+.landing-text h3{
+    display: inline;
+    line-height: 0;
+    font-weight: 200;
+}
+
+.landing-text h1{
+    line-height: 0;
+}
+
+.landing{
+    color: white;
+    font-size: 2.5rem;
+    display: block;
+    padding: 5%;
+    padding-top: 18%;
+    padding-bottom: 20%;
+    animation: fadeIn 2s cubic-bezier(1,-0.46,.52,1.09)  1 forwards;
+}
+
+/* .landing::before{
+    opacity: 0;
+} */
+
+/* .landing::after{
+    opacity: 1;
+} */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.blink{
+    animation: 1s blinker step-end infinite;
+}
+
+
+
+@keyframes blinker {
+    from, to {
+        color: transparent;
+      }
+      50% {
+        color: white;
+      }
+}
+

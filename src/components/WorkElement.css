@@ -1,0 +1,90 @@
+/* .big-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: space-between;
+
+} */
+
+.date-container{
+    width: 300px;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.work-ele-container{
+    background-color: #00000037;
+    color: white;
+    width: 500px;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+
+}
+
+.work-ele-container img{
+    height: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#quatlas{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: space-between;
+}
+
+#logyify{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: space-between;
+    text-align: right;
+}
+
+#be{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.9rem;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.work-ele-container h4{
+    color: #FFFFFFCC;
+}
+
+.date-container h1{
+    color: #FFFFFFCC;
+}
+
+#quatlas .date-container{
+    text-align: right;
+
+}
+
+#logyify .date-container{
+
+    text-align: left;
+}
+
+#be .date-container{
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+
+
+

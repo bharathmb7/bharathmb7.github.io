@@ -1,0 +1,72 @@
+.tile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.tile-container{
+    background-color: black;
+}
+
+/* .tile:hover{
+    opacity: 0.3
+} */
+
+.tile:hover .nam{
+    color: white;
+    position: absolute;
+    font-size: 1.5rem;
+    opacity: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile:hover .film{
+    background-color: #000000ac;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    cursor: pointer;
+}
+
+.tile:hover img{
+    transform: scale(0.8);
+}
+
+.tile img{
+    height: 80%;
+    transition: transform .5s cubic-bezier(.4,0,.2,1);   
+}
+
+.nam{
+    display: none;
+}
+
+#figma img{
+    height: 70%;
+}
+
+.film{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: absolute;
+    cursor: pointer;
+    display: none;
+}
+
