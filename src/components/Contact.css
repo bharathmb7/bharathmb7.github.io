@@ -7,7 +7,7 @@
 }
 
 .rgb{
-    height: 75%;
+    width: 55%;
 }
 
 .link-container{
@@ -16,7 +16,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     height: 45%;
-    width: 18%;
+    min-width: 300px;
     background-color: white;
     position: relative;
     top: 18%;

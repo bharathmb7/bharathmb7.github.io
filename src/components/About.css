@@ -1,5 +1,5 @@
 .about-container{
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,8 @@
 
 .about{
     background-color: #2C375C;
-    width: 25%;
+    min-width: 300px;
+    width: 400px;
     color: white;
     padding: 4%;
     z-index: 1;
